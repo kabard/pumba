@@ -32,7 +32,7 @@ test:
 
 build:
 	mkdir -p out/
-	GO111MODULE=on go build -o $(APP_EXECUTABLE) ./cmd/pumba
+	GO111MODULE=on go build -o $(APP_EXECUTABLE) ./cmd/
 
 coverage:
 	GO111MODULE=on ENVIRONMENT=test goveralls -service=travis-ci

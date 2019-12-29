@@ -3,7 +3,12 @@ module pumba
 go 1.12
 
 require (
+	github.com/aws/aws-sdk-go v1.26.8 // indirect
 	github.com/mattn/goveralls v0.0.4 // indirect
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
+	github.com/spf13/cobra v0.0.5
+	github.com/spf13/viper v1.3.2
 	golang.org/x/crypto v0.0.0-20191227163750-53104e6ec876 // indirect
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
 	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect

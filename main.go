@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"pumba/cmd"
 )
 
 func main() {
-	fmt.Println("First Commit")
+	cmd.Execute()
 }
